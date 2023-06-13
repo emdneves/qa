@@ -2,7 +2,7 @@ package EX_09;
 
 import java.util.ArrayList;
 
-class GameStore {
+public class GameStore {
     private ArrayList<VideoGame> stock;
     private ArrayList<VideoGame> sales;
     public GameStore() {

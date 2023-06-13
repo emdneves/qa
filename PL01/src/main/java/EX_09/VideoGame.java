@@ -2,7 +2,7 @@ package EX_09;
 
 import java.util.ArrayList;
 import java.util.List;
-class VideoGame {
+public class VideoGame {
     private String name;
     private String publisher;
     private double costPrice;

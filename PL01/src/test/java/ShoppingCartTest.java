@@ -1,4 +1,4 @@
-import Ex_08.ShoppingCart;
+import EX_08.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ShoppingCartTest {
     private ShoppingCart cart;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         cart = new ShoppingCart("123");
     }
@@ -17,7 +17,7 @@ public class ShoppingCartTest {
     public void testAddItem() {
         cart.addItem("Item 1");
         cart.addItem("Item 2");
-        Assert.assertEquals(2, cart.getItemCount());
+        assertEquals(2, cart.getItemCount());
     }
 
     @Test
@@ -25,22 +25,22 @@ public class ShoppingCartTest {
         cart.addItem("Item 1");
         cart.addItem("Item 2");
         cart.removeItem("Item 1");
-        Assert.assertEquals(1, cart.getItemCount());
-        Assert.assertFalse(cart.containsItem("Item 1"));
+        assertEquals(1, cart.getItemCount());
+        assertFalse(cart.containsItem("Item 1"));
     }
 
     @Test
     public void testContainsItem() {
         cart.addItem("Item 1");
-        Assert.assertTrue(cart.containsItem("Item 1"));
-        Assert.assertFalse(cart.containsItem("Item 2"));
+        assertTrue(cart.containsItem("Item 1"));
+        assertFalse(cart.containsItem("Item 2"));
     }
 
     @Test
     public void testGetItemCount() {
         cart.addItem("Item 1");
         cart.addItem("Item 2");
-        Assert.assertEquals(2, cart.getItemCount());
+        assertEquals(2, cart.getItemCount());
     }
 
     @Test
@@ -48,6 +48,6 @@ public class ShoppingCartTest {
         cart.addItem("Item 1");
         cart.addItem("Item 2");
         cart.clearCart();
-        Assert.assertEquals(0, cart.getItemCount());
+        assertEquals(0, cart.getItemCount());
     }
 }
