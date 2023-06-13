@@ -1,42 +1,46 @@
-import org.PL01_01.Calculator;
+import Ex_01.Calculator;
+
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 public class CalculatorTest {
-    private Calculator calculator;
 
+    private Calculator calculator;
     @BeforeEach
     public void setUp() {
         calculator = new Calculator();
     }
-
     @Test
     public void testAdd() {
-        int result = calculator.add(2, 3);
-        assertEquals(5, result);
+        //calculator = new Calculator();
+        assertEquals(5, calculator.add(2, 3));
+        assertEquals(-5, calculator.add(-2, -3));
+        assertEquals(0, calculator.add(0, 0));
+
+        // 2 147 483 647
+        assertEquals(2147483646,calculator.add(2147483645,1));
+        assertEquals(2147483647,calculator.add(2147483646,1));
+    }
+
+
+    @Test
+    public void testSubtract(){
+        assertEquals(5,calculator.subtract(10,5));
     }
 
     @Test
-    public void testSubtract() {
-        assertEquals(16, calculator.subtract(-8, -8), "negativo com negativo");
-        assertEquals(16, calculator.subtract(24, -8), "negativo com negativo");
-        assertEquals(24, calculator.subtract(24, -0), "negativo com negativo");
-        assertEquals(16, calculator.subtract(24, -0), "negativo com negativo");
-
+    public void testMultiply(){
+        assertEquals(10,calculator.multiply(5,2));
+        assertEquals(0,calculator.multiply(5,0));
     }
 
-    @Test
-    public void testMultiply() {
-        int result = calculator.multiply(10, 2);
-        assertEquals(20, result);
-    }
     @Test
     public void testDivide() {
+        //calculator = new Calculator();
         int result = calculator.divide(10, 2);
         assertEquals(5, result);
     }
-
     @Test
     public void testDivideByZero() {
         assertThrows(IllegalArgumentException.class, () -> {

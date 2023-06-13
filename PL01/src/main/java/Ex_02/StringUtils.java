@@ -1,4 +1,4 @@
-package org.PL01_02;
+package Ex_02;
 
 public class StringUtils {
     public static boolean isPalindrome(String str) {
@@ -17,5 +17,3 @@ public class StringUtils {
         return sb.toString();
     }
 }
-
-
