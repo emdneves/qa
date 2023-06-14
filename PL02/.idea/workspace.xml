@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d981c056-dcee-465d-971b-828ebf466ef3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../09 - QA - Ficha Prática Junit5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_07/Conta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_07/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_08/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_09/GameStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_09/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/main/EX_09/VideoGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PL01/build/classes/java/test/ContaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01 - Apresentação - Quality Assurance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02 - QA - Contextualizacao e Roadmap.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03 - QA - Fundamentos da Qualidade de Software.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04 - QA - Gestao da Qualidade.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05 - QA - Testes de Software.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06 - QA - Gradle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07 - QA - Junit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 - QA - Ficha Prática Junit5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/build/classes/java/test/RetanguloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/build/classes/java/test/StringUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL01/src/main/java/EX_09/GameStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PL01/src/main/java/EX_09/GameStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PL_01/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RCISh1rNZQ4GpGhUN93WKuHi8N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sdev0223/Documents/GitHub/qa/PL01",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d981c056-dcee-465d-971b-828ebf466ef3" name="Changes" comment="" />
+      <created>1686747641060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686747641060</updated>
+      <workItem from="1686747642171" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
