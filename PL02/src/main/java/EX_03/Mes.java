@@ -1,7 +1,7 @@
 package EX_03;
 
 
-class Mes {
+public class Mes {
     private String nome;
     private Dia[] dias;
 

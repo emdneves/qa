@@ -1,7 +1,7 @@
 package EX_03;
 
 import java.util.ArrayList;
-class Dia {
+public class Dia {
     private int dia;
     private ArrayList<String> tarefas;
     public Dia(int dia) {

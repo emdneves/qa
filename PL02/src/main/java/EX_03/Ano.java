@@ -1,6 +1,6 @@
 package EX_03;
 
-class Ano {
+public class Ano {
     private int ano;
     private Mes[] meses;
     public Ano(int ano) {
